@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waste Ticket Reader</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <h1>Waste Ticket Reader</h1>
+        <span class="brand-sub">Site waste management plan · Nutrient Python SDK</span>
+      </div>
+      <div class="topbar-actions">
+        <label class="default-cat" title="Fit-out or strip-out is not printed on tickets: pre-select it for the tickets you are about to review">
+          <span>Waste category</span>
+          <select id="defaultCategory"></select>
+        </label>
+        <button id="uploadBtn" class="btn btn-secondary">Add tickets</button>
+        <input id="uploadInput" type="file" accept="application/pdf,.pdf" multiple hidden />
+        <button id="exportBtn" class="btn btn-secondary" hidden>Register entries</button>
+        <button id="stopBtn" class="btn btn-quiet" hidden>Stop</button>
+        <button id="reviewBtn" class="btn btn-primary">Read all tickets</button>
+      </div>
+    </div>
+    <div id="progressTrack" class="progress-track" hidden><div id="progressBar" class="progress-bar"></div></div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel documents">
+      <div class="panel-head">
+        <h2>Tickets</h2>
+        <span id="docCount" class="count-pill">0</span>
+      </div>
+      <p id="progressLabel" class="progress-label" hidden></p>
+      <div id="fileList" class="file-list"></div>
+    </aside>
+
+    <section class="panel review">
+      <div id="reviewEmpty" class="empty">
+        <div class="empty-art">&#9993;</div>
+        <h3>Nothing read yet</h3>
+        <p>Press <b>Read all tickets</b>, or tick the circles to read a selection. Each waste transfer note becomes a pre-filled waste collection record: check the flagged values, choose fit-out or strip-out, then confirm to send it to the site waste register with the ticket archived alongside.</p>
+      </div>
+      <div id="reviewBody" hidden></div>
+    </section>
+
+    <section class="panel viewer-panel">
+      <div id="viewerEmpty" class="empty">
+        <div class="empty-art">&#128269;</div>
+        <h3>Ticket viewer</h3>
+        <p>Select a processed ticket, then click any value to see where it was read on the note.</p>
+      </div>
+      <div id="viewer"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <datalist id="carrierList"></datalist>
+  <datalist id="storageList"></datalist>
+
+  <script src="https://cdn.cloud.pspdfkit.com/pspdfkit-web@1.6.0/nutrient-viewer.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+[
+ {
+  "id": 1,
+  "label": "General mixed construction waste (17 09 04)",
+  "ewc": "17 09 04",
+  "category": "controlled"
+ },
+ {
+  "id": 2,
+  "label": "Plasterboard (17 08 02)",
+  "ewc": "17 08 02",
+  "category": "controlled"
+ },
+ {
+  "id": 3,
+  "label": "Metals (17 04 07)",
+  "ewc": "17 04 07",
+  "category": "controlled"
+ },
+ {
+  "id": 4,
+  "label": "Wood (including pallets) (17 02 01)",
+  "ewc": "17 02 01",
+  "category": "controlled"
+ },
+ {
+  "id": 5,
+  "label": "Cardboard (15 01 01)",
+  "ewc": "15 01 01",
+  "category": "controlled"
+ },
+ {
+  "id": 6,
+  "label": "Plastics (17 02 03)",
+  "ewc": "17 02 03",
+  "category": "controlled"
+ },
+ {
+  "id": 7,
+  "label": "Concrete and bricks (hardcore) (17 01 07)",
+  "ewc": "17 01 07",
+  "category": "controlled"
+ },
+ {
+  "id": 8,
+  "label": "Glass (17 02 02)",
+  "ewc": "17 02 02",
+  "category": "controlled"
+ },
+ {
+  "id": 9,
+  "label": "Insulation (17 06 04)",
+  "ewc": "17 06 04",
+  "category": "controlled"
+ },
+ {
+  "id": 10,
+  "label": "Cables (17 04 11)",
+  "ewc": "17 04 11",
+  "category": "controlled"
+ },
+ {
+  "id": 11,
+  "label": "Ceiling tiles (17 09 04)",
+  "ewc": "17 09 04",
+  "category": "controlled"
+ },
+ {
+  "id": 12,
+  "label": "Raised access floor panels (17 09 04)",
+  "ewc": "17 09 04",
+  "category": "controlled"
+ },
+ {
+  "id": 13,
+  "label": "Soil and stones (17 05 04)",
+  "ewc": "17 05 04",
+  "category": "controlled"
+ },
+ {
+  "id": 14,
+  "label": "Ceramics and tiles (17 01 03)",
+  "ewc": "17 01 03",
+  "category": "controlled"
+ },
+ {
+  "id": 15,
+  "label": "Bituminous mixtures (17 03 02)",
+  "ewc": "17 03 02",
+  "category": "controlled"
+ },
+ {
+  "id": 16,
+  "label": "Paper (20 01 01)",
+  "ewc": "20 01 01",
+  "category": "controlled"
+ },
+ {
+  "id": 17,
+  "label": "Mixed packaging (15 01 06)",
+  "ewc": "15 01 06",
+  "category": "controlled"
+ },
+ {
+  "id": 18,
+  "label": "Textiles (including carpet tiles) (20 01 11)",
+  "ewc": "20 01 11",
+  "category": "controlled"
+ },
+ {
+  "id": 19,
+  "label": "Canteen and kitchen waste (20 01 08)",
+  "ewc": "20 01 08",
+  "category": "controlled"
+ },
+ {
+  "id": 20,
+  "label": "Mixed municipal waste (20 03 01)",
+  "ewc": "20 03 01",
+  "category": "controlled"
+ },
+ {
+  "id": 21,
+  "label": "Office and site furniture (20 03 07)",
+  "ewc": "20 03 07",
+  "category": "controlled"
+ },
+ {
+  "id": 22,
+  "label": "Green waste (20 02 01)",
+  "ewc": "20 02 01",
+  "category": "controlled"
+ },
+ {
+  "id": 23,
+  "label": "Aqueous liquid waste (16 10 02)",
+  "ewc": "16 10 02",
+  "category": "controlled"
+ },
+ {
+  "id": 24,
+  "label": "Asbestos (17 06 05*)",
+  "ewc": "17 06 05*",
+  "category": "hazardous"
+ },
+ {
+  "id": 25,
+  "label": "Batteries (20 01 33*)",
+  "ewc": "20 01 33*",
+  "category": "hazardous"
+ },
+ {
+  "id": 26,
+  "label": "Fluorescent tubes (20 01 21*)",
+  "ewc": "20 01 21*",
+  "category": "hazardous"
+ },
+ {
+  "id": 27,
+  "label": "Waste electronics (WEEE) (20 01 35*)",
+  "ewc": "20 01 35*",
+  "category": "hazardous"
+ },
+ {
+  "id": 28,
+  "label": "Paint and adhesive containers (15 01 10*)",
+  "ewc": "15 01 10*",
+  "category": "hazardous"
+ },
+ {
+  "id": 29,
+  "label": "Contaminated absorbents and rags (15 02 02*)",
+  "ewc": "15 02 02*",
+  "category": "hazardous"
+ },
+ {
+  "id": 30,
+  "label": "Waste oil (13 02 05*)",
+  "ewc": "13 02 05*",
+  "category": "hazardous"
+ },
+ {
+  "id": 31,
+  "label": "Refrigerant gases (14 06 01*)",
+  "ewc": "14 06 01*",
+  "category": "hazardous"
+ },
+ {
+  "id": 32,
+  "label": "Glass, plastic and wood containing hazardous substances (17 02 04*)",
+  "ewc": "17 02 04*",
+  "category": "hazardous"
+ },
+ {
+  "id": 33,
+  "label": "Mixed construction waste containing hazardous substances (17 09 03*)",
+  "ewc": "17 09 03*",
+  "category": "hazardous"
+ }
+]

@@ -1,0 +1,24 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated output: readings, confirmed records, archived tickets
+outputs/
+*.log
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+*.zip
